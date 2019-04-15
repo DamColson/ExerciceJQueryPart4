@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Germania+One" rel="stylesheet">
+  <link rel="stylesheet" href="Exercice.css">
+  <title></title>
+</head>
+<body class="text-center w-100 mx-auto">
+  <div class="row">
+    <div class="col-12">
+      <form class="w-50 mx-auto" action="index.html" method="post" id="gradeForm">
+        <fieldset class="rounded bg-dark text-light">
+          <legend class="rounded bg-danger text-light">Informations personnelles</legend>
+          <label class="d-block" for="gender">Votre genre : </label><select class="text-center" name="gender" id="gender">
+              <option autofocus disabled>Selectionnez votre genre :</option>
+              <option>Monsieur</option>
+              <option>Madame</option>
+              <option>Mondame</option>
+              <option>Madieur</option>
+          </select>
+          <label class="d-block" for="firstName">Prénom : </label><input class="text-center" type="text" name="lastName" id="firstName" />
+          <label class="d-block" for="LastName">Nom : </label><input class="text-center" type="text" name="lastName" id="lastName" />
+          <label class="d-block" for="birthday">Date de naissance : </label><input class="text-center" type="text" name="birthday" id="birthday" />
+          <label class="d-block" for="birthPlace">Lieu de naissance : </label><input class="text-center" type="text" name="birthPlace" id="birthPlace">
+          <label class="d-block" for="Job">Emploi : </label><input class="text-center" type="text" name="job" id="job">
+          <label class="d-block" for="firm">société : </label><input class="text-center mb-4" type="text" name="firm" id="firm">
+        </fieldset>
+        <button class="mt-5 btn btn-dark text-success font-weight-bold h5" type="button" name="button" id="check">Let's go</button>
+      </form>
+      <p class="h5 font-weight-bold text-danger" id="error"></p>
+      <p class="h5 font-weight-bold text-success" id="recap"></p>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="Exercice.js"></script>
+</body>

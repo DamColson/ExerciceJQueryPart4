@@ -25,7 +25,7 @@ function compare(){
   }else{
     $('#negative').empty();
     $('#negative').text(function(){
-      return 'Félicitation, vous savez remplir un formulaire';
+      return '';
     });
   }
 }
