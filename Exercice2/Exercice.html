@@ -10,30 +10,31 @@
   <link rel="stylesheet" href="Exercice.css">
   <title></title>
 </head>
-
-<body class="text-center w-25 mx-auto">
-  <form action="index.html" method="post" id="gradeForm">
-    <fieldset class="rounded bg-light text-dark">
-      <legend class="rounded bg-light text-dark">Eleve</legend>
-      <label  for="firstName">Prénom de l'élève : </label><input  type="text" name="lastName" id="firstName" />
-      <label  for="LastName">Nom de l'élève : </label><input  class="mb-4" type="text" name="lastName" id="lastName" />
-    </fieldset>
-    <fieldset class="rounded bg-dark text-light">
-      <legend class="rounded bg-danger text-light">Bulletin de Note</legend>
-        <label class="d-block" for="grade1">Mathématiques : </label><input  type="number" name="grade1" id="grade1" />
-        <label class="d-block" for="grade2">Philosophie : </label><input  type="number" name="grade2" id="grade2">
-        <label class="d-block" for="grade3">Anglais : </label><input type="number" name="grade3" id="grade3">
-        <label class="d-block" for="grade4">Physique-chimie : </label><input type="number" name="grade4" id="grade4">
-        <label class="d-block" for="grade5">Sport : </label><input class="mb-4" type="number" name="grade5" id="grade5">
-    </fieldset>
-    <button class="mt-5 btn btn-dark text-success font-weight-bold h5" type="button" name="button" id="disaster">Compte rendu des dégats</button>
-  </form>
-  <p class="h5 font-weight-bold text-danger" id="negative"></p>
-  <p class="h5 font-weight-bold text-dark" id="tooMuch"></p>
-  <p class="h5 font-weight-bold" id="conclusion"></p>
-
-  <button class="mt-5 btn btn-dark text-success font-weight-bold h5 d-none" type="button" name="button" id="reset">Recommence !!</button>
-
+<body class="text-center w-100 mx-auto">
+  <div class="row">
+    <div class="col-12">
+      <form class="w-50 mx-auto" action="index.html" method="post" id="gradeForm">
+        <fieldset class="rounded bg-light text-dark">
+          <legend class="rounded bg-light text-dark">Eleve</legend>
+          <label class="d-block" for="firstName">Prénom de l'élève : </label><input class="text-center" type="text" name="lastName" id="firstName" />
+          <label class="d-block" for="LastName">Nom de l'élève : </label><input class="text-center mb-4" type="text" name="lastName" id="lastName" />
+        </fieldset>
+        <fieldset class="rounded bg-dark text-light">
+          <legend class="rounded bg-danger text-light">Bulletin de Note</legend>
+          <label class="d-block" for="grade1">Mathématiques : </label><input class="text-center" type="text" name="grade1" id="grade1" />
+          <label class="d-block" for="grade2">Philosophie : </label><input class="text-center" type="text" name="grade2" id="grade2">
+          <label class="d-block" for="grade3">Anglais : </label><input class="text-center" type="text" name="grade3" id="grade3">
+          <label class="d-block" for="grade4">Physique-chimie : </label><input class="text-center" type="text" name="grade4" id="grade4">
+          <label class="d-block" for="grade5">Sport : </label><input class="text-center mb-4" type="text" name="grade5" id="grade5">
+        </fieldset>
+        <button class="mt-5 btn btn-dark text-success font-weight-bold h5" type="button" name="button" id="disaster">Compte rendu des dégats</button>
+      </form>
+      <p class="h5 font-weight-bold text-danger" id="negative"></p>
+      <p class="h5 font-weight-bold text-dark" id="tooMuch"></p>
+      <p class="h5 font-weight-bold" id="conclusion"></p>
+      <button class="mt-5 btn btn-dark text-success font-weight-bold h5 d-none" type="button" name="button" id="reset">Recommence !!</button>
+    </div>
+  </div>
 
 
 
